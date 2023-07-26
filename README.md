@@ -1,15 +1,19 @@
-# dataweave-modules contains date time functions using dataweave module.
+# Dataweave Modules 
+# Contains date time functions & others using dataweave module.
 
-##standards followed
-DateTime format "YYYY-MM-dd'T'HH:mm:ss"
-Date format "YYYY-MM-dd"
-TimeZone format Standard Java or Ids
+## Standards Followed
+1. DateTime format "YYYY-MM-dd'T'HH:mm:ss"  
+2. Date format "YYYY-MM-dd"  
+3. TimeZone format Standard Java or Ids  
 
-##data
-nowTime gets local DateTime 
-dateTimeNow gets GMT DateTime 
+## Data
+1. nowTime gets local DateTime  
 
-##Functions
-getCurrentDateTime(zone) gets DateTime for the TimeZone
-getCurrentDate() gets Date in Local TimeZone
-modifyCurrentDate(op,units,dur) gets Date in Local TimeZone with operation (op) to add ("add") or subtract ("sub") in units (units) mentioned with "Y" for year, "M" for months, "D" for day for duration (dur)
+2. dateTimeNow gets GMT DateTime   
+
+## Functions
+1. getCurrentDateTime(zone) gets DateTime for the TimeZone  
+ 
+2. getCurrentDate() gets Date in Local TimeZone  
+
+3. modifyCurrentDate(op,units,dur) gets Date in Local TimeZone with operation (op) to add ("add") or subtract ("sub") in units (units) mentioned with "Y" for year, "M" for months, "D" for day for duration (dur)  
